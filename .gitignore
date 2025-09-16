@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+.env.*
+!.env.example
+
+# Secrets - NEVER commit your .env file
+.env
+
+# Large Data & Vector Store
+# We will build the vector store on the server, not upload it.
+/vectorstore/
+/data/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.DS_Store

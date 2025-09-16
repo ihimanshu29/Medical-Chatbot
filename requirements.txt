@@ -1,0 +1,11 @@
+langchain
+langchain_community
+langchain-huggingface
+langchain-groq
+faiss-cpu
+pypdf
+streamlit
+python-dotenv
+black
+flake8
+pytest
