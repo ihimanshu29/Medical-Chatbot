@@ -6,6 +6,4 @@ faiss-cpu
 pypdf
 streamlit
 python-dotenv
-black
-flake8
-pytest
+sentence-transformers
