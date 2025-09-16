@@ -16,8 +16,7 @@ env/
 
 # Large Data & Vector Store
 # We will build the vector store on the server, not upload it.
-/vectorstore/
-/data/
+
 
 # IDE and OS files
 .idea/
