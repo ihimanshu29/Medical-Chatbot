@@ -2,7 +2,7 @@
 
 This is a Retrieval-Augmented Generation (RAG) based chatbot designed to answer medical questions based on a provided set of documents. It's built with LangChain, Groq, and Streamlit.
 
-**Live Demo Link:** [Your Streamlit App URL Will Go Here]
+**Live Demo Link:** https://medichat-bot.streamlit.app/
 
 ---
 
@@ -19,14 +19,13 @@ The application follows a standard RAG architecture:
 1.  **Data Ingestion:** Medical documents (PDFs) are loaded and split into chunks.
 2.  **Vector Store:** Text chunks are converted into embeddings (using Hugging Face models) and stored in a FAISS vector store.
 3.  **Retrieval:** When a user asks a question, the system retrieves the most relevant chunks from the vector store.
-4.  **Generation:** The retrieved context and the user's question are passed to a Large Language Model (Groq's Llama3) to generate a final answer.
+4.  **Generation:** The retrieved context and the user's question are passed to a Large Language Model (Groq's Llama4) to generate a final answer.
 
 ## How to Run Locally
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/ihimanshu29/Medical-Chatbot.git
     ```
 2.  **Create and activate a virtual environment:**
     ```bash
